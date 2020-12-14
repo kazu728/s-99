@@ -1,7 +1,7 @@
 object P31 {
 
   def isPrime(number: Int): Boolean = {
-
+    if (number == 1) return false
     val numberDividedByTwo: Int = Math.floor(number / 2).asInstanceOf[Int]
 
     for (i <- 2 to numberDividedByTwo) {

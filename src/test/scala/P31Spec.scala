@@ -18,7 +18,7 @@ class P31Spec extends AnyFunSpec with Diagrams {
 
     it("return true with 1 ") {
       assert(
-        P31.isPrime(1) == true
+        P31.isPrime(1) == false
       )
     }
   }

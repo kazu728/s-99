@@ -16,5 +16,4 @@ target
 .bloop
 .metals
 /project/project/*
-！/project/build.properties
-！/project/metals.sbt
+todo.md

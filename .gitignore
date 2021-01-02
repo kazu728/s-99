@@ -15,5 +15,5 @@
 target
 .bloop
 .metals
-/project/project/*
+/project/*
 todo.md

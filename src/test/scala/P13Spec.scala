@@ -1,0 +1,17 @@
+import org.scalatest.funspec.AnyFunSpec
+import org.scalatest.diagrams.Diagrams
+
+class P13Spec extends AnyFunSpec with Diagrams {
+
+  describe("P13") {
+    it("return encode value") {
+      assert(
+        P13.encodeDirect(
+          List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e',
+            'e')
+        ) ==
+          List((4, 'a'), (1, 'b'), (2, 'c'), (2, 'a'), (1, 'd'), (4, 'e'))
+      )
+    }
+  }
+}
